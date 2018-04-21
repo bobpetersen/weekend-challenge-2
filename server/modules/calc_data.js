@@ -1,0 +1,1 @@
+module.exports = calc_data = [];
