@@ -1,7 +1,35 @@
 body {
-    background-color: lightslategray
+  background-color: lightslategray;
 }
 header {
-    background-color: lightgray;
-    text-align: center;
+  background-color: lightgray;
+  text-align: center;
+}
+
+button {
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 11px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+#inputX {
+    height:40px;
+    font-size:14pt;
+}
+#inputY {
+    height: 40px;
+    font-size: 14pt;
 }

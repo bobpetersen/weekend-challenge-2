@@ -37,6 +37,8 @@ function addition() {
     data: newMath
   }).then(function(response) {
     $('#mathHistory').empty();
+    $('#inputX').val('');
+    $('#inputY').val(''),
     getAllMaths();
     //$('#outputSum').prepend(`${response.mathy}`)
     console.log(response);
@@ -56,6 +58,8 @@ function subtraction() {
     data: newMath
   }).then(function (response) {
     $('#mathHistory').empty();
+    $('#inputX').val('');
+    $('#inputY').val(''),
     getAllMaths();
     //$('#outputSum').prepend(`${response.mathy}`)
     console.log(response);
@@ -76,6 +80,8 @@ function multiply() {
     data: newMath
   }).then(function (response) {
     $('#mathHistory').empty();
+    $('#inputX').val('');
+    $('#inputY').val(''),
     getAllMaths();
     //$('#outputSum').prepend(`${response.mathy}`)
     console.log(response);
@@ -95,6 +101,8 @@ function division() {
     data: newMath
   }).then(function (response) {
     $('#mathHistory').empty();
+    $('#inputX').val('');
+    $('#inputY').val(''),
     getAllMaths();
     //$('#outputSum').prepend(`${response.mathy}`)
     console.log(response);
@@ -103,5 +111,8 @@ function division() {
 
 
 function reset() {
+  $('#inputX').val('');
+  $('#inputY').val(''),
+  $('#mathHistory').empty();
   console.log('reset');
 }

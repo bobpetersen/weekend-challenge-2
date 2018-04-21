@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/all-maths', (req, res) => {
   res.send(calc_data);
 });
+
 app.post('/addition', (req, res) => {
   let x = +req.body.x; //The + is the same as Number($('#inputX').val());
   let y = +req.body.y;
